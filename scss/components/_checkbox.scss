@@ -1,0 +1,57 @@
+.checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;
+    cursor: pointer;
+
+    &__input {
+        /* appearance: none; - уберает радиокнопку (там где ставим галочку)*/
+        appearance: none;
+    }
+
+    &__span {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 16px;
+        height: 15px;
+        margin-right: 8px;
+        border: 1px solid var(--checkbox-color);
+        border-radius: 2px;
+        cursor: pointer;
+    }
+
+    &__icon {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+    }
+
+    &__dogovir {
+        margin-left: 5px;
+        color: var(--accent-color);
+        text-decoration: underline;
+    }
+
+    &__input:checked+&__span &__icon {
+        opacity: 1;
+    }
+
+    &__input:checked+&__span {
+        border-color: var(--checkbox-color-active);
+        background-color: var(--button-background-color);
+    }
+}

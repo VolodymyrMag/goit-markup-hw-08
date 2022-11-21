@@ -1,0 +1,55 @@
+:root {
+    --primary-text-color: #757575;
+    --accent-color: #2196f3;
+    --accent-color-two: #ffffff;
+    --primary-background-color: #ffffff;
+    --title-text-color: #212121;
+    --section-team-color: #f5f4fa;
+    --footer-color: #2f303a;
+    --button-text-color: #ffffff;
+    --button-background-color: #2196f3;
+    --button-background-active-color: #188ce8;
+    --icon-color: #afb1b8;
+    --icon-color-two: #ffffff;
+    --input-border: rgba(33, 33, 33, 0.2);
+    --checkbox-color: #212121;
+    --checkbox-color-active: #2196f3;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+    letter-spacing: 0.03em;
+}
+
+.body,
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+    min-width: 100%;
+    height: auto;
+}
+
