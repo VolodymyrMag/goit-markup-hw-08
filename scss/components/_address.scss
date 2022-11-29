@@ -14,6 +14,14 @@
         color: var(--accent-color-two);
     }
 
+    &__menu {
+        @media screen and (max-width:768px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
     &__menu li:not(:last-child) {
         margin-bottom: 9px;
     }
