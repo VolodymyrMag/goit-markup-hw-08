@@ -1,14 +1,7 @@
 .team {
     background-color: var(--section-team-color);
 
-    &__menu {
-        @media screen and (min-width: 1200px) {
-                
-        display: flex;
-        flex-wrap: wrap;
-        margin: -15px;
-        }
-    }
+    
 
     &__menu {
          @media screen and (min-width: 768px) {
