@@ -21,6 +21,10 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
 
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        margin-top: 20px;
+    }
+
     &:hover,
     &:active {
         background-color: var(--button-background-active-color);
