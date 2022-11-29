@@ -14,6 +14,11 @@
     color: #757575;
     cursor: pointer;
 
+    @media screen and (max-width: 1199px) {
+        font-size: 12px;
+        line-height: 1.16;
+    }
+
     &__input {
         /* appearance: none; - уберает радиокнопку (там где ставим галочку)*/
         appearance: none;
