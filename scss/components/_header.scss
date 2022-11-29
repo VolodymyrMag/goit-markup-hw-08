@@ -21,22 +21,6 @@
             }
     }
 
-    &__burger-menu {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 0;
-        margin: 0;
-        border: none;
-        background-color: rgba(0, 0, 0, 0);
-         
-        cursor: pointer;
-
-        @media screen and (min-width: 768px)  {
-                display: none;
-        }
-    }
-
     &__menu {
         display: flex;
         margin-left: 93px;

@@ -2,8 +2,21 @@
     background-color: var(--section-team-color);
 
     &__menu {
+        @media screen and (min-width: 1200px) {
+                
         display: flex;
-        gap: 30px;
+        flex-wrap: wrap;
+        margin: -15px;
+        }
+    }
+
+    &__menu {
+         @media screen and (min-width: 768px) {
+    
+        display: flex;
+        flex-wrap: wrap;
+        margin: -15px;
+        }
     }
 
     &__card {
@@ -15,6 +28,23 @@
         border-radius: 0px 0px 4px 4px;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
             0px 2px 1px rgba(0, 0, 0, 0.2);
+ 
+        @media screen and (min-width: 1200px) {
+            width: calc((100% - 120px)/4);
+            margin: 15px;
+        }
+
+        @media screen and (min-width:768px) and (max-width: 1199px) {
+            width: calc((100% - 60px)/2);
+            margin: 15px;
+        }
+
+    }
+
+    &__img:not(:last-child) {
+        @media screen and (max-width:768px) {
+            margin-bottom: 30px;
+        }
     }
 
     &__name {

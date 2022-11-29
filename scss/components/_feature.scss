@@ -1,16 +1,27 @@
 .feature {
-        
+           
     &__menu {
+        
+        margin: 15px;
+
+        @media screen and (min-width: 768px) {
         display: flex;
+        flex-wrap: wrap;
+        }
     }
 
     &__list {
-        width: calc((100% - 90px) / 4);
-        margin-right: 30px;
-    }
 
-    &__list:last-child {
-        margin-right: 0;
+        margin: 15px;
+
+        @media screen and (min-width: 768px) and (max-width: 1199px) {
+        width: calc((100% - 60px) / 2);
+        }
+
+        @media screen and (min-width: 1200px) {    
+        width: calc((100% - 120px) / 4);
+        
+        }
     }
 
     &__img {
@@ -35,11 +46,17 @@
         line-height: 1.17;
         letter-spacing: 0.03em;
         margin-top: 30px;
+        text-transform: uppercase;
+
+        @media screen and (max-width: 767px){
+            text-align: center;
+        }
     }
 
     &__text {
         font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
+        margin-top: 10px;
     }
 }

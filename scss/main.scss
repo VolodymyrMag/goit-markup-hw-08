@@ -1,9 +1,11 @@
+/* Utils */
 @import "./utils/base";
 @import "./utils/variables";
 @import "./utils/utils";
 @import "./utils/placeholders";
 @import "./utils/mixins";
 
+/* Components */
 @import "./components/header";
 @import "./components/logo";
 @import "./components/hero";
@@ -15,6 +17,8 @@
 @import "./components/footer";
 @import "./components/address";
 @import "./components/socials";
+@import "./components/mobile-menu";
+@import "./components/burger-menu";
 @import "./components/modal";
 @import "./components/form";
 @import "./components/checkbox";

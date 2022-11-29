@@ -1,6 +1,10 @@
 .work {
     padding-top: 0px;
    
+    @media screen and (max-width: 1200px) {
+        display:none;        
+    }
+
     &__menu {
         display: flex;
         text-transform: uppercase;
