@@ -10,13 +10,15 @@
     z-index: 1;
     background: rgba(0, 0, 0, 0.2);
     transition: opacity 250ms, visibility 250ms;
+
+    
 }
 
 .is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-}
+    }
 
 .modal {
     position: absolute;
