@@ -10,8 +10,6 @@
     z-index: 1;
     background: rgba(0, 0, 0, 0.2);
     transition: opacity 250ms, visibility 250ms;
-
-   
 }
 
 .is-hidden {
@@ -22,7 +20,6 @@
 
 .modal {
     position: absolute;
-     
     width: 528px;
     max-height: 581px;
     height: 100%;
@@ -55,7 +52,7 @@
 
         @media screen and (max-width: 1199px) {
         left: 412px;
-    }  
+        }  
         
     }
 
