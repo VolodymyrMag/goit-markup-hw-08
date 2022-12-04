@@ -2,12 +2,10 @@
     background-color: var(--section-team-color);
 
     &__menu {
-
         display: flex;
         flex-wrap:wrap;
         justify-content: space-between;
         gap: 30px;  
-
     }
 
     &__card {
