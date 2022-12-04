@@ -1,9 +1,17 @@
 .filter {
+// display: flex;
+//             
+//             justify-content: space-between;
+            
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 50px;
-    gap: 8px;
-    
+gap: 8px;
+        @media screen and (max-width: 1200px) {
+            
+        }
+
     &__button {
         padding: 6px 22px;
         font-family: inherit;
