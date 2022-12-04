@@ -125,4 +125,20 @@
     &__buttonicon {
         margin-left: 10px;
     }
+
+    &__form {
+
+        @media screen and (min-width:1200px) {
+        display: flex;
+        align-items: center;
+        }
+    }
+
+    .primary-button {
+        @media screen and (min-width:1200px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+    }
 }
