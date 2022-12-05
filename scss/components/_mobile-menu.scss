@@ -12,9 +12,9 @@
     transition: transform 250ms;
 
     display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-                overflow-y: scroll;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: scroll;
     
     &.is-open {
         transform: translateX(0);
@@ -22,6 +22,10 @@
 
         .header__link--current {
         color: var(--accent-color);
+    }
+
+    &__nav {
+        margin-bottom: 64px;
     }
 
     &__nav .header__link {
@@ -46,10 +50,6 @@
     &__nav .header__menu {
         display: block;
         margin-left: 0;
-    }
-
-    &__connection {
-        margin-top: 302px;
     }
 
     &__item:not(:last-child) {

@@ -30,24 +30,21 @@
             background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100%),
             url('../images/hero/hero-tablet-mobile@2x.jpg');
         }
-
     }
 
         @media screen and (min-width: 1200px) {
-        
-             height: 600px;
+            height: 600px;
             padding: 200px 0;
         }
 
         @media screen and (max-width: 1199px) {
-        
             height: 400px;
             padding: 118px 0;
         }
 
 
     &__title {
-        width: 696px;
+        max-width: 696px;
         margin: 0 auto 30px auto;
         font-weight: 900;
         font-size: 44px;
@@ -57,7 +54,7 @@
 
                    
         @media screen and (max-width:1199px) {
-            width: 400px;
+            max-width: 400px;
             font-size: 26px;
             line-height: 1.61;
         }

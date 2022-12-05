@@ -63,6 +63,15 @@
         }
     }
 
+    &__mail {
+        width: 100%;
+        max-width: 450px;
+
+        @media screen and (min-width:1200px) {
+            max-width: 570px;
+        }
+    }
+
     &__title {
         font-weight: 700;
         font-size: 14px;
@@ -84,7 +93,8 @@
     }
 
     &__input {
-        width: 358px;
+        width: 100%;
+        
         height: 50px;
         padding: 16px;
         margin-right: 12px;
@@ -103,17 +113,6 @@
         @media screen and (max-width:767px) {
             margin-bottom: 20px;
         }
-
-        @media screen and (max-width:1200px) {
-            width: 450px;
-            margin-right: 0;
-        }
-        @media screen and (max-width:476px) {
-            width: 350px;
-        }
-        @media screen and (max-width:400px) {
-            width: 250px;
-        }
     }
 
     &__input:hover,
@@ -130,6 +129,12 @@
         @media screen and (min-width:1200px) {
         display: flex;
         align-items: center;
+        gap: 12px;
+        }
+
+        label {
+            display: block;
+            width: 100%;
         }
     }
 
